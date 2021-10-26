@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Weather Page</title>
-</head>
+  </head>
 
-<body>
-    <div id="mainContainer">
-        <div id="weatherDisplayDiv">
-            <div class="weatherCard">
-            </div>
-            <div id="searchDiv">
-                    <input type="text" id="input" placeholder="Ex: Phoenix,US" autofocus>
-                    <button id="btn">Search</button>
-            </div>
-            <div class="weatherInfo">
-                <p class="grades"><sup class="degree"></sup></p>
-                <p class="location"><sup class="country"></sup></p>
-                <div class="weatherIconDiv">
-                    <img class="weatherIcon" src="" alt="">
-                </div>
-                <p class="weatherConditions"></p>
-            </div>
-
-
-        </div>
-</div>
-        </div>
+  <body>
+    <div id="searchDiv">
+      <input type="text" id="input" placeholder="Ex: Phoenix,US" autofocus />
+      <button id="btn">Search</button>
     </div>
-<script src="./index.js"></script>
-</body>
-
+    <div id="weatherInfo">
+      <div class="locationDiv">
+        <h1>London, UK</h1>
+        <p>Monday 29 August</p>
+      </div>
+      <div class="temperature">
+        <div class="weatherImgDiv">
+            <img src="" alt="">
+        </div>
+        <div class="todayTemp">
+          <p class="todayDegrees">21&deg;</p>
+          <p class="todayConditions">Mostly sunny</p>
+        </div>
+      </div>
+      <hr />
+      <div class="todayInformationDiv">
+        <div class="todayInfo">
+          <p class="infoNumbers">23&deg;</p>
+          <p class="infoTitle">High</p>
+        </div>
+        <div class="todayInfo">
+          <p class="infoNumbers">7mph</p>
+          <p class="infoTitle">Wind</p>
+        </div>
+        <div class="todayInfo">
+          <p class="infoNumbers">05:27</p>
+          <p class="infoTitle">Sunrise</p>
+        </div>
+        <div class="todayInfo">
+          <p class="infoNumbers">14&deg;</p>
+          <p class="infoTitle"></p>
+        </div>
+        <div class="todayInfo">
+          <p class="infoNumbers">0%</p>
+          <p class="infoTitle">Rain</p>
+        </div>
+        <div class="todayInfo">
+          <p class="infoNumbers">20:57</p>
+          <p class="infoTitle">Sunset</p>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
 </html>
