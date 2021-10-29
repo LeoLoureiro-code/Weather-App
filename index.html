@@ -9,49 +9,53 @@
   </head>
 
   <body>
-    <div id="searchDiv">
-      <input type="text" id="input" placeholder="Ex: Phoenix,US" autofocus />
-      <button id="btn">Search</button>
-    </div>
-    <div id="weatherInfo">
-      <div class="locationDiv">
-        <h1>London, UK</h1>
-        <p>Monday 29 August</p>
+    <div class="mainContainer">
+      <div id="searchDiv">
+        <input type="text" id="input" placeholder="Ex: Phoenix,US" autofocus />
+        <button id="btn">Search</button>
       </div>
-      <div class="temperature">
-        <div class="weatherImgDiv">
-            <img src="" alt="">
+      <div id="weatherInfo">
+        <div class="locationDiv">
+          <h1>London, UK</h1>
+          <p>Monday 29 August</p>
         </div>
-        <div class="todayTemp">
-          <p class="todayDegrees">21&deg;</p>
-          <p class="todayConditions">Mostly sunny</p>
+        <div class="temperature">
+          <div class="weatherImgDiv">
+            <img src="./weatherImages/cloudy.jpg" alt="" class="icon" />
+          </div>
+          <div class="todayTemp">
+            <p class="todayDegrees">21&deg;</p>
+            <p class="todayConditions">Mostly sunny</p>
+          </div>
         </div>
-      </div>
-      <hr />
-      <div class="todayInformationDiv">
-        <div class="todayInfo">
-          <p class="infoNumbers">23&deg;</p>
-          <p class="infoTitle">High</p>
-        </div>
-        <div class="todayInfo">
-          <p class="infoNumbers">7mph</p>
-          <p class="infoTitle">Wind</p>
-        </div>
-        <div class="todayInfo">
-          <p class="infoNumbers">05:27</p>
-          <p class="infoTitle">Sunrise</p>
-        </div>
-        <div class="todayInfo">
-          <p class="infoNumbers">14&deg;</p>
-          <p class="infoTitle"></p>
-        </div>
-        <div class="todayInfo">
-          <p class="infoNumbers">0%</p>
-          <p class="infoTitle">Rain</p>
-        </div>
-        <div class="todayInfo">
-          <p class="infoNumbers">20:57</p>
-          <p class="infoTitle">Sunset</p>
+        <hr />
+        <div class="gridWrapper">
+          <div class="todayInformationDiv">
+            <div class="todayInfo">
+              <p class="infoNumbers">23&deg;</p>
+              <p class="infoTitle">High</p>
+            </div>
+            <div class="todayInfo">
+              <p class="infoNumbers">7mph</p>
+              <p class="infoTitle">Wind</p>
+            </div>
+            <div class="todayInfo">
+              <p class="infoNumbers">05:27</p>
+              <p class="infoTitle">Sunrise</p>
+            </div>
+            <div class="todayInfo">
+              <p class="infoNumbers">14&deg;</p>
+              <p class="infoTitle">Low</p>
+            </div>
+            <div class="todayInfo">
+              <p class="infoNumbers">0%</p>
+              <p class="infoTitle">Rain</p>
+            </div>
+            <div class="todayInfo">
+              <p class="infoNumbers">20:57</p>
+              <p class="infoTitle">Sunset</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
